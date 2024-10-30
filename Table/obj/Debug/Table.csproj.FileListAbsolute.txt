@@ -1,0 +1,7 @@
+C:\DotNet-Training\Table\bin\Debug\Table.exe.config
+C:\DotNet-Training\Table\bin\Debug\Table.exe
+C:\DotNet-Training\Table\bin\Debug\Table.pdb
+C:\DotNet-Training\Table\obj\Debug\Table.csproj.AssemblyReference.cache
+C:\DotNet-Training\Table\obj\Debug\Table.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\Table\obj\Debug\Table.exe
+C:\DotNet-Training\Table\obj\Debug\Table.pdb

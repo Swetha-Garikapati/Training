@@ -1,0 +1,7 @@
+C:\DotNet-Training\Training\bin\Debug\Training.exe.config
+C:\DotNet-Training\Training\bin\Debug\Training.exe
+C:\DotNet-Training\Training\bin\Debug\Training.pdb
+C:\DotNet-Training\Training\obj\Debug\Training.csproj.AssemblyReference.cache
+C:\DotNet-Training\Training\obj\Debug\Training.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\Training\obj\Debug\Training.exe
+C:\DotNet-Training\Training\obj\Debug\Training.pdb

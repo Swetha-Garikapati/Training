@@ -1,0 +1,7 @@
+C:\DotNet-Training\Assignments\CSharp\sum\obj\Debug\sum.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\Assignments\CSharp\sum\bin\Debug\sum.exe.config
+C:\DotNet-Training\Assignments\CSharp\sum\bin\Debug\sum.exe
+C:\DotNet-Training\Assignments\CSharp\sum\bin\Debug\sum.pdb
+C:\DotNet-Training\Assignments\CSharp\sum\obj\Debug\sum.csproj.AssemblyReference.cache
+C:\DotNet-Training\Assignments\CSharp\sum\obj\Debug\sum.exe
+C:\DotNet-Training\Assignments\CSharp\sum\obj\Debug\sum.pdb

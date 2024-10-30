@@ -1,0 +1,7 @@
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\obj\Debug\Arithmatic.csproj.AssemblyReference.cache
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\obj\Debug\Arithmatic.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\bin\Debug\Arithmatic.exe.config
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\bin\Debug\Arithmatic.exe
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\bin\Debug\Arithmatic.pdb
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\obj\Debug\Arithmatic.exe
+C:\DotNet-Training\Assignments\CSharp\Arithmatic\obj\Debug\Arithmatic.pdb

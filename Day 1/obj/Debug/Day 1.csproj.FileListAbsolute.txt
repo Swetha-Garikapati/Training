@@ -1,0 +1,7 @@
+C:\DotNet-Training\Day 1\bin\Debug\Day 1.exe.config
+C:\DotNet-Training\Day 1\bin\Debug\Day 1.exe
+C:\DotNet-Training\Day 1\bin\Debug\Day 1.pdb
+C:\DotNet-Training\Day 1\obj\Debug\Day 1.csproj.AssemblyReference.cache
+C:\DotNet-Training\Day 1\obj\Debug\Day 1.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\Day 1\obj\Debug\Day 1.exe
+C:\DotNet-Training\Day 1\obj\Debug\Day 1.pdb
