@@ -1,0 +1,7 @@
+C:\DotNet-Training\Assignments\CSharp\swap\obj\Debug\swap.csproj.AssemblyReference.cache
+C:\DotNet-Training\Assignments\CSharp\swap\obj\Debug\swap.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\Assignments\CSharp\swap\bin\Debug\swap.exe.config
+C:\DotNet-Training\Assignments\CSharp\swap\bin\Debug\swap.exe
+C:\DotNet-Training\Assignments\CSharp\swap\bin\Debug\swap.pdb
+C:\DotNet-Training\Assignments\CSharp\swap\obj\Debug\swap.exe
+C:\DotNet-Training\Assignments\CSharp\swap\obj\Debug\swap.pdb
