@@ -1,7 +1,0 @@
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\bin\Debug\+ve or -ve.exe.config
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\bin\Debug\+ve or -ve.exe
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\bin\Debug\+ve or -ve.pdb
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\obj\Debug\+ve or -ve.csproj.AssemblyReference.cache
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\obj\Debug\+ve or -ve.csproj.CoreCompileInputs.cache
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\obj\Debug\+ve or -ve.exe
-C:\DotNet-Training\Assignments\CSharp\+ve or -ve\obj\Debug\+ve or -ve.pdb
