@@ -37,6 +37,7 @@ namespace Assignment_2
                 Console.Write(array2[i] + " ");
             }
             Console.WriteLine();
+
             Console.Read();
 
 
