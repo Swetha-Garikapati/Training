@@ -4,7 +4,7 @@ using ClassLibrary1;
 
 namespace Assignment_6
 {
-    class Program
+    class Program4
     {
         static void Main()
         {

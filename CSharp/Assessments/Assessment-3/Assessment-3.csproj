@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BAEEFAFD-D5EC-4F02-9D9E-0A0A65345D94}</ProjectGuid>
+    <ProjectGuid>{CE57385E-EE78-4D53-9F56-7A0B981EF954}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_6</RootNamespace>
-    <AssemblyName>Assignment-6</AssemblyName>
+    <RootNamespace>Assessment_3</RootNamespace>
+    <AssemblyName>Assessment-3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment_6.Program4</StartupObject>
+    <StartupObject>Assessment_3.Program3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,20 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program4.cs" />
-    <Compile Include="Program1.cs" />
-    <Compile Include="Program2.cs" />
+    <Compile Include="Box.cs" />
+    <Compile Include="CricketTeam.cs" />
     <Compile Include="Program3.cs" />
+    <Compile Include="Program4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{65d03663-c909-49b5-be9f-bcb186a8a646}</Project>
-      <Name>ClassLibrary1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
