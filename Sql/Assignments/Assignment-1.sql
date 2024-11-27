@@ -1,11 +1,11 @@
 
 
 
-create database Buisiness_IT
+create database Business_IT
 
 
 
-use Buisiness_IT
+use Business_IT
                                          
 
 create table Clients

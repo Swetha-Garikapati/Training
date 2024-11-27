@@ -107,6 +107,16 @@ where sal not between 1500 and 2850
 select mgr_id,count(*) as Emp_Count           --15.fetching managers who have more than 2 employees reporting to them
 from emp group by mgr_id
 having  count(*)>2
+                                    ---------------  HANDS ON------------------------
+select * from Emp
+create or alter proc 
+sp_data @id int
+as
+begin
+  select Ename,sal,Sal+100 as 'Updated Salary' 
+  from Emp where Sal<1250 and EmpNo=@id
+end
+sp_data 7369
 
 
 
