@@ -117,10 +117,14 @@ begin
   from Emp where Sal<1250 and EmpNo=@id
 end
 sp_data 7369
-
-
-
-
-
-
-
+                       ---------------------Example 2-------------------------
+create or alter proc sp_ReturnData @depno int,@Avgsalary float output
+as
+begin
+select @Avgsalary=AVG(Sal) from Emp where DeptNo=@depno
+return (select COUNT(EmpNo) from Emp where DeptNo=@depno)
+end
+ 
+declare @totalemp int ,@averagesal float
+exec @totalemp = sp_ReturnData 10,@averagesal output
+select   @totalemp [Count of employees],@averagesal [Average salary]
