@@ -55,7 +55,7 @@ create Function Calculate_Bonus
        set @bonus=@sal*0.05;
   return @bonus;
   end;
-  select * from emp
+ select empno, ename,dbo.Calculate_Bonus(deptno,sal) as BONUS from emp
  ------------------------------------6---------------------------------
  create procedure  Sal_update      
   as
