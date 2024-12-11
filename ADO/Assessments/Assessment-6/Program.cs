@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+
 namespace Assessment_6
 {
-    class Program
+    class program
     {
         public static SqlConnection conn;
         public static SqlCommand cmd;
+        public static IDataReader dr;
         static void Main(string[] args)
         {
             insert();
@@ -19,9 +21,11 @@ namespace Assessment_6
 
         static SqlConnection Connection()
         {
+            
             conn = new SqlConnection("Data Source=ICS-LT-D244D68Z;Initial Catalog=Assessment_6;" +
                 "Integrated Security=true;");
             Console.WriteLine("Connected to a database:");
+            
             conn.Open();
             return conn;
         }
@@ -32,24 +36,25 @@ namespace Assessment_6
                 Connection();
                 Console.WriteLine("Connected to database...");
 
-                cmd = new SqlCommand("sp_insert", conn);
+                
+                cmd = new SqlCommand("sp_productsdetails", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
+                
                 Console.Write("Enter Product name : ");
                 string Pname = Console.ReadLine();
 
                 Console.Write("Enter the Product price : ");
                 int P_price = Convert.ToInt32(Console.ReadLine());
 
-                int Discount_price = P_price;
 
-                cmd = new SqlCommand("insert into Products_Details values(@ProductName,@Price,@DiscountedPrice)", conn);
+                
+                cmd = new SqlCommand("insert into ProductDetails values(@product_name,@product_price)", conn);
                 Console.WriteLine();
                 Console.WriteLine("Query Executed...");
 
-                cmd.Parameters.AddWithValue("@ProductName", Pname);
-                cmd.Parameters.AddWithValue("Price", P_price);
-                cmd.Parameters.AddWithValue("@DiscountedPrice", Discount_price);
+                cmd.Parameters.AddWithValue("@product_name", Pname);
+                cmd.Parameters.AddWithValue("product_price", P_price);
 
                 int result = cmd.ExecuteNonQuery();
 
@@ -57,6 +62,17 @@ namespace Assessment_6
                 {
                     Console.WriteLine();
                     Console.WriteLine("*** Product Details inserted Successfully ***");
+
+                    cmd = new SqlCommand("Select * from ProductDetails", conn);
+                    Console.WriteLine("Command is executed:");
+                    
+                    dr = cmd.ExecuteReader();
+                    Console.WriteLine("Data is retriving:");
+                    while (dr.Read())
+                    {
+                        Console.WriteLine($"{dr[0]} {dr[1]} {dr[2]} {dr[3]}");
+                    }
+
                 }
                 else Console.WriteLine("Product details not inserted");
             }
