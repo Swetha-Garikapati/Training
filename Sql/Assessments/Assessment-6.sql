@@ -22,7 +22,7 @@ begin
    return
         DATEDIFF(day, @start_date, @end_date);
 		end;
-select dbo.CalculateCourseDuration('2024-01-01', '2024-03-01') AS DurationInDays;
+select C_id,C_name,dbo.CalculateCourseDuration(Start_date,End_date) AS DurationInDays from course
 -----------------------------------------------------------2-------------------------------------------
 create table T_CourseInfo (
     CourseName varchar(30),
