@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +52,9 @@
     <Content Include="HTMLPage1.html" />
     <Content Include="HTMLPage2.html" />
     <Content Include="HTMLPage3.html" />
+    <Content Include="HTMLPage4.html" />
+    <Content Include="HTMLPage5.html" />
+    <Content Include="HTMLPage6.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
