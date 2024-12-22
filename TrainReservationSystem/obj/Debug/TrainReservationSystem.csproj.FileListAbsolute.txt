@@ -1,0 +1,7 @@
+C:\DotNet-Training\TrainReservationSystem\bin\Debug\TrainReservationSystem.exe.config
+C:\DotNet-Training\TrainReservationSystem\bin\Debug\TrainReservationSystem.exe
+C:\DotNet-Training\TrainReservationSystem\bin\Debug\TrainReservationSystem.pdb
+C:\DotNet-Training\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.AssemblyReference.cache
+C:\DotNet-Training\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.CoreCompileInputs.cache
+C:\DotNet-Training\TrainReservationSystem\obj\Debug\TrainReservationSystem.exe
+C:\DotNet-Training\TrainReservationSystem\obj\Debug\TrainReservationSystem.pdb
