@@ -63,10 +63,10 @@ namespace TrainReservationSystem
                 Console.Write("Enter Journey Date (YYYY-MM-DD): ");
                 DateTime journeyDate = DateTime.Parse(Console.ReadLine());
                        if (journeyDate<DateTime.Now)
-                {
-                    Console.WriteLine("Error:You cannot book tickets for a past date.");
-                    return;
-                }
+                       {
+                         Console.WriteLine("Error:You cannot book tickets for the past and present day dates.");
+                          return;
+                       }
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -133,8 +133,8 @@ namespace TrainReservationSystem
                         while (reader.Read())
                         {
                             Console.WriteLine($"Train No: {reader["TrainNo"]}, Name: {reader["TrainName"]}");
-                            Console.WriteLine($"Source: {reader["Source"]}, Destination: {reader["Destination"]}");
                             Console.WriteLine($"1A: {reader["Available1A"]}, 2A: {reader["Available2A"]}, Sleeper: {reader["AvailableSleeper"]}");
+                            Console.WriteLine($"Source: {reader["Source"]}, Destination: {reader["Destination"]}");
                             Console.WriteLine("-----------------------------------------------------");
                         }
                     }

@@ -34,7 +34,7 @@ namespace TrainReservationSystem
                     case 5:
                         return;
                     default:
-                        Console.WriteLine("Invalid Option!");
+                        Console.WriteLine("Invalid Option! Try again.");
                         break;
                 }
             }

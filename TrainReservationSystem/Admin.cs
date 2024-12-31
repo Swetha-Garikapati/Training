@@ -13,7 +13,7 @@ namespace TrainReservationSystem
             while (true)
             {
                 Console.WriteLine("\nAdmin Menu");
-                Console.WriteLine("1. Add Train\n2. Modify Train\n3. Delete Train \n4. Exit");
+                Console.WriteLine("1. Add Trains\n2. Modify Trains\n3. Delete Trains \n4. Show all Trains\n5.Exit");
                 Console.Write("Choose an option: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -29,9 +29,12 @@ namespace TrainReservationSystem
                         TrainService.DeleteTrain();
                         break;
                     case 4:
+                        BookingService.ShowAllTrains();
+                        break;
+                    case 5:
                         return;
                     default:
-                        Console.WriteLine("Invalid Option!");
+                        Console.WriteLine("Invalid Option! Try again.");
                         break;
                 }
             }

@@ -141,5 +141,31 @@ namespace TrainReservationSystem
                 Console.WriteLine($"Error: {ex.Message}");
             }
         }
+        public static void ShowAllTrains()
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    SqlCommand command = new SqlCommand("ShowAllTrains", connection);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        Console.WriteLine("\nAvailable Trains:");
+                        while (reader.Read())
+                        {
+                            Console.WriteLine($"Train No: {reader["TrainNo"]}, Name: {reader["TrainName"]}");
+                            Console.WriteLine($"1A: {reader["Available1A"]}, 2A: {reader["Available2A"]}, Sleeper: {reader["AvailableSleeper"]}");
+                            Console.WriteLine($"Source: {reader["Source"]}, Destination: {reader["Destination"]}");
+                            Console.WriteLine("-----------------------------------------------------");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching train details: {ex.Message}");
+            }
+        }
     }
 }
