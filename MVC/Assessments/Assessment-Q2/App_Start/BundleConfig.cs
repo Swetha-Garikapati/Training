@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Assessment_Q2
+namespace CodeFirst
 {
     public class BundleConfig
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Assessment_Q2.Controllers
+namespace CodeFirst.Controllers
 {
     public class HomeController : Controller
     {

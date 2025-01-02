@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Assessment_Q2
+namespace CodeFirst
 {
     public class FilterConfig
     {

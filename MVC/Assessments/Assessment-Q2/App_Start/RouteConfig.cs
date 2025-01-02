@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Assessment_Q2
+namespace CodeFirst
 {
     public class RouteConfig
     {
